@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Motivational Quotes</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 30px;
+    }
+
+    #quote {
+      font-size: 1.5em;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      background-color: hsl(155, 89%, 50%);
+      padding: 5px;
+    }
+
+    #note {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #ecf0f1;
+      border-left: 5px solid #3498db;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 Daily Motivation</h1>
+  <p id="quote">"Believe in yourself and all that you are." — Christian D. Larson</p>
+
+  <button onclick="changeQuote()">Change Quote</button>
+  <button onclick="highlightQuote()">Highlight Quote</button>
+  <button onclick="addNote()">Add Note</button>
+  <button onclick="removeNote()">Remove Note</button>
+
+  <div id="note-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
